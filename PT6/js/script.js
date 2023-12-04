@@ -21,7 +21,7 @@ while (!dniValido) {
         alert("DNI correcto.");
         dniValido = true;
       } else {
-        alert("El dni es incorrecto." + letras[num % 23]);
+        alert("El dni es incorrecto.");
       }
     }
   }
